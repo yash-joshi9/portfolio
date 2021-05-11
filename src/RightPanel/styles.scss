@@ -1,0 +1,153 @@
+.right-section {
+  flex-basis: 90%;
+  background-color: black;
+  overflow: auto;
+}
+
+.partical-wrapper {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
+
+#tsparticles {
+  height: 100%;
+}
+
+.right-section-main-container {
+  z-index: 1;
+  position: relative;
+  height: 100%;
+}
+
+.fixed-scroll {
+  height: 100%;
+
+  &.skills-section {
+    height: auto;
+  }
+}
+
+.header-design {
+  height: 100px;
+  background-color: #008073;
+  color: white;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+}
+
+.header-text {
+  padding-left: 20px;
+}
+
+.about-details-text {
+  color: #008273;
+  font-family: "Roboto", sans-serif;
+  margin-top: 70px;
+  margin-left: 70px;
+  width: 400px;
+  padding-left: 10px;
+  font-size: 20px;
+  border-left: 3px solid white;
+  font-weight: bold;
+}
+
+.about-details-text-2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: white;
+  margin-top: 40px;
+  margin-left: 70px;
+  line-height: 2;
+  width: 500px;
+  padding-left: 10px;
+}
+
+.experience-panel {
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+  background: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-clip: padding-box;
+  box-shadow: 0 2px 5px 0 white, 0 2px 10px 0 rgb(255 255 255 / 12%);
+  font-family: "Roboto", sans-serif;
+}
+
+.company-contribution {
+  width: auto;
+  line-height: 1.5;
+
+  li {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+}
+
+.company-name {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 10px;
+  .cname-header {
+    color: #008273;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  .cname-role {
+    font-size: 14px;
+  }
+}
+
+.company-date {
+  background-color: rgba(0, 0, 0, 0.09);
+  margin-top: 30px;
+  padding: 10px 20px;
+}
+
+.contact-panel {
+  position: relative;
+  overflow: hidden;
+  margin: 20px;
+  background: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background-clip: padding-box;
+  box-shadow: 0 2px 5px 0 white, 0 2px 10px 0 rgb(255 255 255 / 12%);
+  font-family: "Roboto", sans-serif;
+}
+
+.contact-wrapper {
+  padding: 20px;
+
+  ul {
+     list-style-type: none;
+  }
+  li {
+     margin: 10px 0;
+     display: flex;
+     align-items: center;
+  }
+  .contact-icon {
+    img {
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .contact-details {
+     margin-left: 20px;
+  }
+}
