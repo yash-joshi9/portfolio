@@ -1,20 +1,11 @@
-import logo from './logo.svg';
-import './App.scss';
-import HeaderSection from "./header/headerSection"
-import LeftPanel from './LeftPanel/LeftPanel';
-import RightPanel from './RightPanel/RightPanel';
-
-
+import React from "react";
+import "./App.scss";
+import Main from "./containers/Main";
 
 function App() {
-
   return (
-    <div className="App">
-      <HeaderSection/>
-      <div className="section-container-main">
-          <LeftPanel />
-          <RightPanel />
-      </div>
+    <div>
+      <Main />
     </div>
   );
 }

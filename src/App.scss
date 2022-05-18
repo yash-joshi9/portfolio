@@ -1,12 +1,28 @@
-@import "../src/functions.scss";
+@import "./globalColor";
 
+.App {
+  text-align: center;
+}
 
-.section-container-main {
-    display: flex;
-    height: calc(100vh - 100px);
+.App-logo {
+  height: 40vmin;
+}
 
+.App-header {
+  background-color: $appHeaderBG;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: $textColorDark;
+}
 
-    @include mobileOnly() {
-        display: block;
-    }
+.App-link {
+  color: $appLink;
+}
+
+.subTitle {
+  color: $subTitle;
 }
